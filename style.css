@@ -5,3 +5,10 @@
     width: 200px;
     padding: 5px 10px
 }
+
+body {
+    background-image: url("/images/baki.jpg");
+    background-size: 1800px 1000px;
+    background-position: 30% 30%;
+    background-repeat: no-repeat;
+}
