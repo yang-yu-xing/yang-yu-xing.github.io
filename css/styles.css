@@ -36,6 +36,8 @@ body {
     background-color: black;
     padding: 20px;
     color: white;
+    width: 25%;
+    margin: auto;
 }
 
 input[type=text], select, textarea {
