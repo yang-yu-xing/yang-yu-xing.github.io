@@ -1,14 +1,32 @@
-.coolbutton {
-    background-color:crimson;
-    color:white;
-    font-family: cursive;
-    width: 200px;
-    padding: 5px 10px
-}
-
 body {
     background-image: url("/images/baki.jpg");
     background-size: 1800px 1000px;
     background-position: 30% 30%;
     background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar a:active {
+    background-color: blue;
+    color: white;
 }
