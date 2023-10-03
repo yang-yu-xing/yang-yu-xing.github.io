@@ -90,7 +90,7 @@ let templateID = "template_v5qlmxs"
 emailjs.init("tmBDemZjjAJsHiMwI");
 
 window.onload = function() {
-    document.getElementById("contact_form").addEventListener("submit", function(event) {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
         if (validateForm()) {
             
