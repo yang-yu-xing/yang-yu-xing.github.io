@@ -1,21 +1,21 @@
 var phoneMatch = /^([0-9]{3})-([0-9]{3})-([0-9]{4})$/;
 var emailMatch = /^\S{1,}[@]\S{1,}[.]\S{1,}$/; 
 
-let user_first = document.getElementById("user_first");
-let user_last = document.getElementById("user_last");
+let user_fname = document.getElementById("user_fname");
+let user_lname = document.getElementById("user_lname");
 let user_email = document.getElementById("user_email");
 let user_phone = document.getElementById("user_phone");
 let user_message = document.getElementById("user_message");
 
-var firstError = document.getElementById("user_first-error")
-var lastError = document.getElementById("user_last-error")
+var firstError = document.getElementById("user_fname-error")
+var lastError = document.getElementById("user_lname-error")
 var emailError = document.getElementById("user_email-error")
 var phoneError = document.getElementById("user_phone-error")
 var messageError = document.getElementById("user_message-error")
 
-function validateFirst() {
+function validateFName() {
     
-    if (user_first.value == "") {
+    if (user_fname.value == "") {
         firstError.innerHTML = "First name is required"
         return false;
     } else {
@@ -25,8 +25,8 @@ function validateFirst() {
 
 }
 
-function validateLast() {
-    if (user_last.value == "") {
+function validateLName() {
+    if (user_lname.value == "") {
         lastError.innerHTML = "Last name is required"
         return false;
     } else {
@@ -69,12 +69,12 @@ function validateMessage() {
 
 
 function validateForm() {
-    validateFirst()
-    validateLast()
+    validateFName()
+    validateLName()
     validateEmail()
     validatePhone()
     validateMessage()
-    if (!(!validateFirst() || !validateLast() || !validateEmail() || !validatePhone() || !validateMessage())) {
+    if (!(!validateFName() || !validateLName() || !validateEmail() || !validatePhone() || !validateMessage())) {
         return true
     } else {
         return false
@@ -95,8 +95,8 @@ window.onload = function() {
         if (validateForm()) {
             
             const inputFields = {
-                user_first: user_first.value,
-                user_last: user_last.value,
+                user_fname: user_fname.value,
+                user_lname: user_lname.value,
                 user_email: user_email.value,
                 user_phone: user_phone.value,
                 user_message: user_message.value
@@ -105,8 +105,8 @@ window.onload = function() {
             emailjs.sendForm(serviceID, templateID, this)
                 .then(function() {
                     console.log('SUCCESS!');
-                    user_first.value = ""
-                    user_last.value = ""
+                    user_fname.value = ""
+                    user_lname.value = ""
                 }, function(error) {
                     console.log('FAILED...', error);
                 });
