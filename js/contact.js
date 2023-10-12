@@ -85,7 +85,7 @@ function validateForm() {
 }
 
 let serviceID = "service_yfivaqi"
-let templateID = "template_2r19wd1"
+let templateID = "template_yetc96m"
 
 emailjs.init("tmBDemZjjAJsHiMwI");
 
