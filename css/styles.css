@@ -5,6 +5,15 @@ body {
     background-repeat: no-repeat;
 }
 
+.pic {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    border: solid 5px white;
+    position: absolute;
+    top: 10%;
+}
+
 .navbar {
     background-color: black;
     overflow: hidden;
@@ -63,6 +72,9 @@ input[type=box], select, textarea {
     resize: vertical;
 }
 
+/*---------------------------BUTTONS----------------------------------*/
+
+/* contact submission button */
 .submit {
     background-color: blue;
     color: white;
@@ -70,7 +82,73 @@ input[type=box], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: cursive;
 }
 
+.download {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: cursive;
+    position: absolute;
+    right: 10%;
+}
+
+/*-------------------------NAV BAR DROP DOWN--------------------------*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: cursive;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: blue;}
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  /*Embedded resume pdf*/
+  .resume {
+    border: 100px black;
+    width: 700px;
+    height: 500px;
+  }
 
 
