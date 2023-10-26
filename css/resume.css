@@ -1,0 +1,18 @@
+.download {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: cursive;
+    position: absolute;
+    right: 10%;
+}
+
+/*Embedded resume pdf*/
+.resume {
+    border: 100px black;
+    width: 700px;
+    height: 500px;
+  }
