@@ -3,7 +3,18 @@ body {
     background-size: 1800px 1000px;
     background-position: 30% 30%;
     background-repeat: no-repeat;
+    height: 100%;
+
 }
+
+/*Footer style*/
+footer {
+    position: fixed;
+    bottom: 0.1%;
+    width: 100%;
+    height: auto;
+    color: white;
+  }
 
 .pic {
     border-radius: 50%;
