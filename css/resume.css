@@ -6,13 +6,15 @@
     border-radius: 4px;
     cursor: pointer;
     position: absolute;
-    right: 20%;
-    bottom: 1%;
+    right: 15%;
+    bottom: 15%;
 }
 
 /*Embedded resume pdf*/
 .resume {
     border: 100px black;
     width: 700px;
-    height: 800px;
+    height: 600px;
+    position: relative;
+    left: 30%;
   }
