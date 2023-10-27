@@ -7,6 +7,10 @@ body {
     font-family: cursive;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*-------------------------------FOOTER------------------------------*/
 footer {
     position: absolute;
@@ -61,15 +65,6 @@ footer {
 .navbar a:active {
     background-color: blue;
     color: white;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: black;
-    padding: 20px;
-    color: white;
-    width: 25%;
-    margin: auto;
 }
 
 /*---------------------------BUTTONS----------------------------------*/
