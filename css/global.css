@@ -48,6 +48,7 @@ height: auto;
   width: 100%;
   font-size: 17px;
   text-transform: uppercase;
+  justify-content: space-between;
 }
 
 .navbar a {

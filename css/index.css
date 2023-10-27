@@ -20,9 +20,12 @@
     color: white;
 }
 
-video {
-    width: 200px;
-    position: relative;
-    left: 43%;
-    border-radius: 10%;
+.links {
+    color: white;
+    background-color: black;
 }
+
+.links:hover {
+    color: blueviolet;
+}
+
