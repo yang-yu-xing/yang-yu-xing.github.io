@@ -12,7 +12,7 @@ footer {
     position: absolute;
     z-index: 0;
     bottom: 0;
-    left: 0;
+    left: 85%;
     right: 0;
     text-align: center;
     color: white;
@@ -26,6 +26,12 @@ footer {
     border: solid 5px white;
     position: absolute;
     top: 10%;
+}
+
+.socials {
+  border-radius: 25%;
+  width: 30px;
+  height: auto;
 }
 
 .navbar {

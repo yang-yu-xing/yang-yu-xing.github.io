@@ -1,0 +1,21 @@
+.mainprofile {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    border: solid 10px white;
+    position: fixed;
+    left: 39%;
+}
+
+.name {
+    text-align: left;
+    font-family: cursive; 
+    color: white;
+    text-transform: uppercase;
+}
+
+.intro {
+    margin-left: 35%;
+    font-family: cursive;
+    color: white;
+}
