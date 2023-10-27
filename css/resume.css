@@ -8,11 +8,12 @@
     font-family: cursive;
     position: absolute;
     right: 80%;
+    bottom: 20%;
 }
 
 /*Embedded resume pdf*/
 .resume {
     border: 100px black;
     width: 700px;
-    height: 450px;
+    height: 425px;
   }

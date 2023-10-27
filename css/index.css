@@ -1,21 +1,28 @@
 .mainprofile {
     border-radius: 50%;
-    width: 300px;
+    width: 200px;
     height: auto;
-    border: solid 10px white;
-    position: fixed;
-    left: 39%;
+    border: solid 5px white;
+    position: absolute;
+    top: 16%;
 }
 
 .name {
     text-align: left;
-    font-family: cursive; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     color: white;
     text-transform: uppercase;
 }
 
 .intro {
-    margin-left: 35%;
-    font-family: cursive;
+    margin-left: 37%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+
+video {
+    width: 200px;
+    position: relative;
+    left: 43%;
+    border-radius: 10%;
 }
